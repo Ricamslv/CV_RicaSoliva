@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+h1 {
+    font-family: 'Sacramento', cursive;
+}
+h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+.Me{
+    
+    width: 100px;
+    height: 200px;
+}
+
+
+.head-container {
+    
+
+    background-color: yellow;
+    padding-top: 10px;
+}
+.cactus{
+    position: relative;
+    border-radius: 100%;
+    background-color: black;
+    left: 50px;
+  
+ 
+
+
+}
+
+.Top-Container {
+    text-align: center;
+    background-color: pink;
+    position: relative;
+    padding-top: 100px;
+  
+
+    /*border: solid 10px;*/
+    
+}
+
+
+.Portfolio{
+    background-color: #fafcc2;
+    
+    
+}
+
+.Education{
+    background-color: pink;
+  
+ 
+}
+
+.cloudimg1 {
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+}
+.cloudimg2 {
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+
+
+/*TEST*/
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+ 
+
+}
+
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+   
+}
+
+.yellow{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    
+}
