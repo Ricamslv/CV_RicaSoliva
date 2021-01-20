@@ -1,24 +1,25 @@
 body{
     margin: 0;
     font-family: 'Merriweather', serif;
+    text-align: center;
 }
 h1 {
+    font-size: 5.625em;
+    margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
+}
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 h4 {
     font-family: 'Montserrat', sans-serif;
-}
-.Me{
-    
-    width: 100px;
-    height: 200px;
 }
 
 
 .head-container {
     
 
-    background-color: yellow;
+    background-color: ＃aaaaaa;
     padding-top: 10px;
 }
 .cactus{
@@ -37,24 +38,29 @@ h4 {
     background-color: pink;
     position: relative;
     padding-top: 100px;
-  
+  padding-bottom: 10px;
 
     /*border: solid 10px;*/
     
 }
 
 
-.Portfolio{
-    background-color: #fafcc2;
+.Mid-Container {
+
+}
+.Profile {
+    background-color: #f6f6f6;
+    text-align: center;
+   
     
     
+}
+.Me {
+    border-radius: 150%;
+    height: 200px;
+    width: 200px;
 }
 
-.Education{
-    background-color: pink;
-  
- 
-}
 
 .cloudimg1 {
     position: absolute;
@@ -66,9 +72,15 @@ h4 {
     left: 500px;
     bottom: 300px;
 }
+.mountain-img {
+   
+    bottom: 500px;
 
+}
 
+.Bot-Container {
 
+}
 /*TEST*/
 .red{
     height: 200px;
