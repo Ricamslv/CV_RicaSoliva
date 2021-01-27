@@ -7,10 +7,44 @@
         <link rel="icon" href="favicon.ico">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
 
     <body>
-       
+        <header>
+            <div class="menu-toggler">
+                <div class="bar half start"></div>
+                <div class="bar"></div>
+                <div class="bar half end"></div>
+            </div>
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About" class="nav-link">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <img class="cloudimg1" src="images/cloud.png" alt="cloud-img1">
+            <img class="cloudimg2" src="images/cloud.png" alt="cloud-img2">
+           
+            <h1>I'm Rica Soliva</h1>
+            <h4>A Web Developer and 3D Artist</h4>
+            <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
+        </header>
+    
         <div class="head-container">
             <!--img class="cactus" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/271/cactus_1f335.png" alt="cactus"-->
         </div>
@@ -18,26 +52,30 @@
         <!--img class="Me" src="/Users/ricasoliva/Downloads/CSS_MySite/images/ME.jpg" alt="Me.jpg"-->
         
         <div class="Top-Container">
-            <img class="cloudimg1" src="images/cloud.png" alt="cloud-img1">
-            <img class="cloudimg2" src="images/cloud.png" alt="cloud-img2">
-           
-            <h1>I'm Rica Soliva</h1>
-            <h4>A Web Developer and 3D Artist</h4>
-            <img class="mountain-img" src="images/mountain.png" alt="mountain-img">
+            
             
         </div>
         
-        <div class="Mid-Container">
-            <div class="Profile">
-                <img class="Me" src="images/ME.jpg" alt="Me.jpg">
-                <h2>Hello</h2>
-                <p class="intro"> I am a Web Developer and 3D Artist. Information Technology graduate from the Philippines.
-                    I love to play computer games and make my own. My passion for programming and making models makes me happy and I want to share it to the whole world.
-                    Have faith and believe that dreams do come true.
-                </p>
-                <hr>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="profile-img">
+                    <img class="me-img" src="images/ME.jpg" alt="me-img">
+                </div>
+                <div class="about-details">
+                    <div class="about-heading">
+                        <h1>About</h1>
+                        <h6>Myself</h6>
+                    </div>
+                    <p class="about-intro">
+                        I am a Web Developer and 3D Artist. Studied and graduated in the Philippines with a degree in Information Technology.
+                    I love to play computer games and this led me to learn how to create one. My passion for programming and making models makes me more motivated.
+                    I believe having faith in your work and abilities will make your dream acvhieavable.
+                    </p>
+                </div>
             </div>
 
+        </section>
+            <hr>
             <div class="Skills">
                 <h2>My Skills</h2>
                 <div class="skill-row">
@@ -71,7 +109,7 @@
         
             <div class="Education">
                 <h2>Education</h2>
-                <h3>Information Technoloy</h3>
+                <h3>Information Technology</h3>
                 <div class="education-row">
                 <img class="sbca-logo" src="images/SBC_LOGO.png" alt="sbca-logo">
                
@@ -97,6 +135,8 @@
             <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
             <p class="copyright">© 2021 Rica Mae Soliva.</p>
         </div>
-       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
